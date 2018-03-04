@@ -1,0 +1,25 @@
+---- Standard - 'approx_posterior'
+CEVAE model total scores
+train ITE: 1.891+-0.558, train ATE: 0.405+-0.229, train PEHE: 2.356+-1.187
+test ITE: 1.520+-0.304, test ATE: 0.288+-0.102, test PEHE: 1.948+-0.817
+
+train ITE: 1.894+-0.559, train ATE: 0.199+-0.031, train PEHE: 2.325+-1.174
+test ITE: 1.598+-0.372, test ATE: 0.459+-0.205, test PEHE: 2.062+-0.894
+
+---- 'proxy_matching' - n_neighbours=5
+CEVAE model total scores
+train ITE: 1.931+-0.597, train ATE: 0.189+-0.048, train PEHE: 2.453+-1.307
+test ITE: 1.651+-0.417, test ATE: 0.564+-0.287, test PEHE: 2.134+-0.987
+
+
+---- Separated - 'approx_posterior'
+CEVAE model total scores
+train ITE: 2.017+-0.679, train ATE: 0.365+-0.186, train PEHE: 2.893+-1.546
+test ITE: 1.655+-0.434, test ATE: 0.456+-0.153, test PEHE: 2.251+-1.048
+
+
+
+---- Separated - 'approx_posterior' 20-20
+CEVAE model total scores
+train ITE: 1.850+-0.561, train ATE: 0.319+-0.130, train PEHE: 2.364+-1.229
+test ITE: 1.518+-0.333, test ATE: 0.336+-0.136, test PEHE: 1.897+-0.882
